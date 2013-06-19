@@ -1,0 +1,13 @@
+.container_fix_dj {text-decoration:none;position:relative; width:100%;  height:100%; z-index:15; overflow:hidden; background-repeat: no-repeat; display:block}
+a.container_fix_dj:hover {text-decoration:none;}
+.container_fix_dj a{position:absolute; height:100%; z-index:10;}
+.container_fix_dj a.selected {position:absolute; height:100%; z-index:999;}
+.container_fix_dj div.list{float:left; position:absolute;  z-index:999;bottom:5px; right:0px; width:auto}
+.container_fix_dj .list div.node{float:left; text-align:center; margin-right:5px; width:17px; line-height:17px; display:block; position:static; background-color:black; border:solid 1px black; color:White}
+.container_fix_dj .list .node img{display:none}
+.container_fix_dj .list div.hover{background-color:red}
+.container_fix_dj .list div.prev{display:none}
+.container_fix_dj .list div.next{display:none}
+.container_fix_dj .shade{display:none}
+.container_fix_dj .subtitle{display:none}
+
